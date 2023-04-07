@@ -3,7 +3,7 @@ name: Build and Push to Docker
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   RUN_NUMBER: ${{ github.run_number }}
